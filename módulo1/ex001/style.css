@@ -1,0 +1,19 @@
+
+h1 {            
+    color: blue; /*cor do texto*/
+    font-size: 36px; /*tamanho da fonte*/
+    text-align: center; /*alinhamento do texto*/
+}
+
+main {
+    font-family: Arial, sans-serif; /*tipo da fonte*/
+    color: rgb(27, 102, 216);
+    margin: 20px;   /*margem ao redor do conteúdo*/
+    line-height: 1.6; /*espaçamento entre linhas*/
+}
+
+footer {
+    text-align: center; /*alinhamento do texto*/
+    font-size: 14px; /*tamanho da fonte*/
+    color: gray;
+}

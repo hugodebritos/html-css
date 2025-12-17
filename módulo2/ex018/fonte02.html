@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: nome da fonte que quiser;
+            src: url('nome da fonte na pasta.otf') format(otf);
+
+            /* 
+            Tipos de format ()
+            - opentype (otf)
+            - truetype (ttf)
+            - embebbed-opentype
+            - truetype-aat (Appe Advanced Typography)
+            - svg
+            */
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: "UnifrakturCook", cursive;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores adipisci placeat ipsam minus necessitatibus, praesentium ipsa numquam tempore amet vitae odio, porro ullam laboriosam. Officiis quo provident optio sunt illo?</p>
+</body>
+</html>

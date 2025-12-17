@@ -1,0 +1,44 @@
+Aulas HTML5 E CSS3
+Anotações
+
+
+subdomínio (www), domínio, caminho
+GitHub.com/gustavoguanabara          .com/.io é o TLD (top level domain)
+gustavoguanabara.github.io	     .gov/edu é o GTLD (genérico)
+				     .br é o CCTLD (código do país)
+________
+
+
+Tecnologia Web para desenvolvedores
+https://developer.mozilla.org/pt-BR/
+
+Livros Design
+Pensar com Tipos - Ellen Lupton
+O essencial do design gráfico - Bob & Maggie Gordon (Autor)
+
+________
+
+UTF-8 -> inclui a maioria dos caracteres conhecidos
+
+HTML - conteúdo
+CSS - estilo
+JavaScript- interatividade
+
+Sempre terminar com ;
+
+h1 {
+color=blue
+}
+h1 é o seletor, tudo dentro do colchete é a declaração 
+Color = Propriedade 
+blue = valor
+
+&lt; - é abertura de tag pra texto, menor que em inglês, less than
+&gt; - é fechamento de tag pra texto, maior que em inglês, greater than
+& para símbolos
+&#x - usado para emojis, emojipedia.org para pegar as ID's
+h1 ao h6, h2 é subtítulo de h1, h3 subtítulo de h2 e assim por diante
+<pre></pre> Pré-formatado
+
+áudios gratuitos na biblioteca de áudio do youtube
+vídeos hospedados no site podem gerar custos mais altos por tráfego de dados

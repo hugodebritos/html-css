@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        
+        /* 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* div > p é para o texto dentro do div, p é filho de div */
+        /* display:none é pra ocultar o contrúdo*/
+        div > p {
+            display: none;
+        }
+
+        /* display é pra mostrar o contrúdo em uma caixa */
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: rgb(255, 0, 0);
+            width: 200px;
+        }
+
+
+        div:hover {
+            color: rgb(55, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse no texto abaixo.</p>
+    <div>
+        Passe o mouse aqui.
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exemplo.</p>
+</body>
+</html>

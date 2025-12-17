@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu <a href="https://github.com/hugodebritos" target="_blank" rel="external">GitHub</a>.</p> <!-- href = referência hipertexto, target _blank para janela em branco-->
+
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira página do site, se você quiser, pode acessar também a minha <a href="page002.html" rel="next" target="_self">segunda página</a>.</p> <!--rel é em relação à, nesse caso next é próximo página-->
+    <p>Você também pode acessar minha <a href="noticias/page003.html" target="_self">página de notícias</a>.</p>
+
+    <h1>Links para download</h1>
+    <ul type="square">
+        <li><a href="livro/meu-livro.PDF" download="meu-livro.pdf" type="application/pdf">Baixar o livro em PDF</a></li> <!--application/pdf é um media type, pode ser acessado em media types no google-->
+        <li><a href="#">Livro Compactado em ZIP</a></li> <!--application/zip para arquivos zip-->
+    </ul>
+
+</body>
+</html>

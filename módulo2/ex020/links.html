@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Configuração genérica do link */
+        a {
+            color: #7fffd4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* onfiguração de como fica depois de visitado */
+        a:visited {
+            color: #4a997f;
+        }
+
+        /* configuração quando passa o mouse em cima */
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        /* configuração quando clicka nele */
+        a:active {
+            color: rgb(131, 255, 234);
+        }
+
+        /* pseudoelementos servem para ID e CLASS */
+        .especial {
+            background-color: rgb(177, 247, 223);
+        }
+
+        /* aparece coisa antes do nome */
+        .especial::before {
+            content: '⇒ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightgray;
+        }
+
+        /* aparece coisa depois do nome */
+        .especial::after {
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <li><a href="https://www.github.com/hugodebritos" target="_blank">GitHub</a></li>
+    <li><a href="https://www.instagram.com/hugodebritos" class="especial" target="_blank">Instagram</a></li>
+    <li><a href="https://www.youtube.com/@hugodebritos" target="_blank">Youtube</a></li>
+</body>
+</html>

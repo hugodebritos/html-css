@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+
+        /* 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+
+        div {
+            display: inline-block;
+            background-color: #c5c5c5;
+            border: 1px solid black;;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        /* PASSAR O MOUSE E TROCA DE COR */
+        div:hover {
+            background-color: aquamarine;
+        }
+
+        /* CLICKA COM O MOUSE E TROCA DE COR */
+        div:active {
+            background-color: rgb(84, 168, 157);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">1</div>
+    <div id="d2">2</div>
+    <div id="d3">3</div>
+</body>
+</html>

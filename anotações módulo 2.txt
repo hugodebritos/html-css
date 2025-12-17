@@ -1,0 +1,35 @@
+<div>
+<h1> - <h6>
+<p>
+<main>
+<header>
+<nav>		são caixas do tipo box-level
+<article>		ocupam a largura toda da página
+<aside>
+<footer>
+<form>
+<vídeo>
+
+_____________________________________________________
+
+<span>
+<a>
+<code>
+<small>
+<strong>		são caixas do tipo inline-level
+<em>		não quebram linha nem ocupam a tela toda
+<sup> - <sub>
+<label>
+<button>
+<input>
+<select>
+
+user agent é o navegador que apresenta o conteúdo
+display: block é o elemento do tipo box-level
+
+DVH Dynamic Viewport Height
+altura dinâmica, para pc e mobile
+Viewport height (VH) pela o tamanho total da tela. Dynamic viewport height (DVH) pega a área útil.
+
+list-style-position: inside; /* coloca os pontos da lista pra dentro do box*/
+list-style-type: '\2714\00A0\00A0'; /* muda o ponto da lista por um emoji, funciona no chrome, 00A0 é um espaço */

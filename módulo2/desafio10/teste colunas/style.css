@@ -1,0 +1,112 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbe9ff;
+    width: 100%; /* Define a largura como 100% da tela, serve para toda a página */
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(45deg, #ffc0cb, #800080);
+    color: #fff;
+    padding: 10px;
+
+}
+
+header>p{
+    font-size: small;
+}
+
+nav{
+    text-align: left;
+}
+
+.menu{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.menu:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+main{
+    text-align: justify;
+    width: 60%; /* Define a largura como 60% da tela */
+    margin: auto; /* Centraliza o conteúdo */
+    background-color: #fff;
+    padding: 5px 20px 5px 20px;
+}
+
+h2{
+    color: #800080;
+}
+
+.titulo{
+    background-color: #ffc0cb79;
+}
+
+.texto{
+    text-indent: 30px;
+}
+
+div{
+    background-color: #fff0fe6b;
+    box-shadow: 1px 1px 5px #8080804f;
+    padding: 20px;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.caixa{
+    background-color: pink;
+    text-indent: 30px;
+    border-radius: 10px 10px 0  0;
+    margin: -20px -20px 20px -20px;
+}
+
+div {
+flex-direction: column; /* Define a direção do layout como coluna */
+column-count: 2; /* Define o número de colunas */
+}
+
+.link{
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(45deg, pink, purple);
+    color: #fff;
+    margin: 0px;
+    padding: 5px;
+}
+
+footer>p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.rodape{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.rodape:hover{
+    color: pink;
+    text-decoration: underline;
+}
