@@ -28,16 +28,16 @@ menu{
 }
 #burger{
     color: white;
-    display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    border-radius: 50%;
     
 }
 #burger:hover{
     background-color: #fff;
     color: black;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
 menu>ul{
