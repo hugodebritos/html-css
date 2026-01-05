@@ -29,10 +29,9 @@ menu{
 #burger{
     color: white;
     text-align: center;
+    display: block;
     padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-    
+    cursor: pointer;    
 }
 #burger:hover{
     background-color: #fff;
