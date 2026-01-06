@@ -10,14 +10,14 @@ Grandes telas: maiores que 1200px
 */
 
 @media screen and (min-width: 768px) {
-    #burger {
+    i#burger {
         display: none;
-    }
-    menu{
-        display: block;
     }
     menu>ul>li{
         display: inline-block;
+    }
+    menu{
+        display: block;
     }
     main{
         width: 768px;
