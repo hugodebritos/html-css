@@ -6,3 +6,5 @@ Estão aqui alguns projetos feitos durante o curso.
 
 <p><a href="https://hugodebritos.github.io/projeto-android/" target="_blank">Projeto Android</a> sobre a história do mascote da Android.</p>
 <p><a href="https://hugodebritos.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a> usando um exemplo de efeito paralax simples.</p>
+<p><a href="https://hugodebritos.github.io/projeto-social/" target="_blank">Projeto Social</a>, fazendo links com imagens dentro de um iframe, redirecionando para redes sociais.</p>
+<p><a href="https://hugodebritos.github.io/projeto-login/" target="_blank">Projeto Login</a>, fazendo um tela de login simples.</p>
