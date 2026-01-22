@@ -1,0 +1,9 @@
+GRIDS
+
+row tracks -> são as linhas dentro das grid lines na horizontal
+column tracks -> são as linhas dentro das grid lines na vertical
+grid line -> linhas que delimitam as tracks
+grid item -> conteúdo da interseção das tracks
+grid container -> é o contêiner da grade
+grid area -> seleção de vários grid items
+grid gap -> espaçamento entre os elementos
