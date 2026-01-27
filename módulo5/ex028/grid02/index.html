@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout na prática</title>
+    <style>
+        /* shorthands
+        auto row e column para grid explícito 
+        grid-auto-rows: auto; altura automática para linhas extras 
+        grid-auto-columns: auto; largura automática para colunas extras 
+        grid-template: primeiro linha, depois coluna, repeat, quantidade e valor
+        grid-template-columns: 100px 20% 1fr 1fr; largura fixa, percentual e fração do restante do valor que sobrou
+        */
+        .container{
+            border: 2px solid red;
+            height: 250px;
+            grid-template: repeat(3, 100px) / 1fr 2fr 1fr; /* fr é fração */
+            display: grid;
+            place-items: normal; /* align e justify */
+            place-content: normal; /* align e justify */
+            gap: 5px;
+        }
+        .item{
+            border: 2px dashed blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+    </div>
+</body>
+</html>

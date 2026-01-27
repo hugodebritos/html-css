@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    border: 2px solid #000;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr); /* fr é fração */
+    gap: 5px;
+}
+.caixa1{
+    background-color: salmon;
+    grid-area: 1/1/1/5; /* linha inicial / coluna inicial / linha final / coluna final */
+}
+.caixa2{
+    background-color: lightpink;
+    grid-area: 2/1/5/3; /* linha inicial / coluna inicial / linha final / coluna final */
+}
+.caixa3{
+    background-color: aquamarine;
+    grid-area: 2/3/5/5; /* linha inicial / coluna inicial / linha final / coluna final */
+}

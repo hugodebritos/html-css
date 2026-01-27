@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    border: 2px solid #000;
+    grid-template: repeat(3, 100px) / repeat(4, 1fr); /* fr é fração */
+    gap: 5px;
+}
+.caixa1{
+    background-color: salmon;
+    grid-row-start: 1; /* linha de início da caixa */
+    grid-row-end: 1; /* linha de término da caixa */
+    grid-column-start: 1; /* coluna de início da caixa */
+    grid-column-end: span 4; /* coluna de término da caixa, span a quantidade de linhas que ocupa */
+}
+.caixa2{
+    background-color: lightpink;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.caixa3{
+    background-color: aquamarine;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    grid-column-start: 3;
+    grid-column-end: -1;
+}

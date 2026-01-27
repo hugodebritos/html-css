@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades Grid</title>
+    <style>
+
+        /* GRIDS
+            grids layout são bidimensionais, com linhas e colunas
+            row tracks -> são as linhas dentro das grid lines na horizontal
+            column tracks -> são as linhas dentro das grid lines na vertical
+            grid line -> linhas que delimitam as tracks
+            grid item -> conteúdo da interseção das tracks
+            grid container -> é o contêiner da grade
+            grid area -> seleção de vários grid items
+            grid gap -> espaçamento entre os elementos
+            align -> na vertical
+            justify -> na horizontal
+            items -> todos os elementos
+            content -> todo o conteúdo do container
+        */
+
+        .container{
+            display: grid; /* transforma o layout em grid */
+            grid-template-columns: auto auto auto; /* quantidade de colunas */
+            grid-template-rows: 100px 100px 100px; /* tamanho das linhas */
+            grid-gap: 20px; /* espaçamento entre os elementos */
+        }
+        .item{
+            border: 1px dashed black;
+            background-color: lightgray;
+            text-align: center;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedades de container do Grid Layout</h1>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid #000;
+    height: 900px;
+    display: grid;
+    grid-template: repeat(9, 100px), repeat(4, 1fr);
+    gap: 5px;
+}
+.caixa1{
+    background-color: salmon;
+    grid-area: 1/1/1/5;
+}
+.caixa2{
+    background-color: lightpink;
+    grid-area: 2/1/5/3;
+}
+.caixa3{
+    background-color: lightpink;
+    grid-area: 2/3/5/5;
+}
+.caixa4{
+    background-color: aquamarine;
+    grid-area: 5/1/7/5;
+}
+.caixa5{
+    background-color: cornflowerblue;
+    grid-area: 7/1/8/3;
+}
+.caixa6{
+    background-color: cornflowerblue;
+    grid-area: 8/1/9/3;
+}
+.caixa7{
+    background-color: cornflowerblue;
+    grid-area: 7/3/8/5;
+}
+.caixa8{
+    background-color: cornflowerblue;
+    grid-area: 8/3/9/5;
+}
